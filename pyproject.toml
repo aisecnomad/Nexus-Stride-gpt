@@ -45,7 +45,7 @@ stride-gpt = "stride_gpt.cli:main"
 dev = [
     "pytest>=8.4",
     "pytest-cov>=6.0",
-    "ruff==0.17.4",
+    "ruff==0.17.5",
     "mypy>=1.14",
 ]
 # Streamlit web-app deps (apps/web). Kept out of [project.dependencies] so the
